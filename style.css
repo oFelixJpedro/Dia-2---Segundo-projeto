@@ -1,0 +1,159 @@
+body{
+    background-color: #0C122C;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+#background{
+    position: fixed;
+    bottom: 0%;
+}
+
+#backgroundImage{
+    width: 100%;
+    
+}
+
+#fylo{
+    background-color: #1E2C69;
+    width: 250px;
+    height: 100px;
+    padding: 40px;
+    border-radius: 6% 45% 6% 6%;
+    position: fixed;
+    top: 25%;
+    left: 20%;
+}
+#logo{
+    cursor: pointer;
+}
+
+#document{
+    background-color: #0B122A;
+    position: fixed;
+    top: 42%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+#documento{
+    position: relative;    
+}
+
+#folder{
+    background-color: #0B122A;
+    position: fixed;
+    top: 42%;
+    left: 27%;
+    padding: 10px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+#pasta{
+    position: relative;
+    
+}
+
+#upload{
+    background-color: #0B122A;
+    position: fixed;
+    top: 42%;
+    left: 31.5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+#nuvem{
+    position: relative;
+    top: 3px;
+}
+
+#storage{
+    background-color: #1E2C69;
+    width: 450px;
+    height: 130px;
+    position: fixed;
+    top: 32.5%;
+    left: 47%;
+    border-radius: 5%;
+}
+
+p{
+    color: hsl(243, 100%, 93%);
+    font-size: 14px;
+}
+
+#totalStorage{
+    background-color: #151E49;
+    width: 400px;
+    height: 15px;   
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+#usedStorage{
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    width: 300px;
+    height: 10px;
+    position: relative;
+    top: 2.25px;
+}
+
+#GB0{
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+
+#GB1000{
+    position: relative;
+    top: -8%;
+    left: 82%;
+}
+
+#message{
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+
+#progresCircle{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    left: 97%;
+}
+
+#storageLeft{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 6%;
+    position: absolute;
+    top: -20%;
+    left: 63%;
+}
+
+#GB185{
+    position: relative;
+    top: -70px;
+    left: 50%;
+}
+
+h1{
+    position: relative;
+    top: -25px;
+    left: -8%;
+}
